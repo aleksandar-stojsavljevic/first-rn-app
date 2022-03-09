@@ -1,29 +1,29 @@
 {
   "expo": {
-    "name": "first-app",
-    "slug": "first-app",
+    "name": "Add Task",
+    "slug": "managing-tasks-app",
+    "description": "This app is great for managing your tasks. Enjoy using it.",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#000000"
+      },
+      "package": "aleksandar.first.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
